@@ -1,0 +1,10 @@
+langchain
+wikipedia
+langchain-community
+langchain-openai
+langchain-anthropic
+python-dotenv
+pydantic
+duckduckgo-search
+
+# To change to Virtual Environment go ./venv/Scripts/Activate
