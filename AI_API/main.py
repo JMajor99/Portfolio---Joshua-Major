@@ -53,6 +53,7 @@ def show_response(feedback: str):
 
 def check_user_input():
     user_query = entry_box1.get("1.0", "end-1c")
+    
     if not user_query.strip():
         error_box.config(text="Please enter text to translate.")
         return
