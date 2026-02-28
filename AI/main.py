@@ -39,7 +39,7 @@ prompt = ChatPromptTemplate.from_messages(
 
 def show_response(feedback: str):
     popup = tk.Toplevel()
-    popup.title("Translation - Output")
+    popup.title("Translation - Vietnamese")
 
     width = min(max(len(feedback) // 2, 30), 80)
     height = min(max(feedback.count('\n') + 3, 5), 20)
