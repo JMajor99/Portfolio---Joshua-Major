@@ -1,3 +1,5 @@
 AI_API/.env
 __pycache__/
-.env
+# ignore virtual environments
+venv/
+AI_API/env/
